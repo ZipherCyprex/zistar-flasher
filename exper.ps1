@@ -1,4 +1,5 @@
-﻿ 
+﻿Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
 $vvBinUrl = "https://raw.githubusercontent.com/ZipherCyprex/hid-update/main/load/zipher_124mg.bin" 
  
 $tempPath = [System.IO.Path]::GetTempPath()
